@@ -1,0 +1,64 @@
+.profile-card {
+  background-color: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+}
+
+.profile-card h2 {
+  margin: 10px 0 5px 0;
+}
+
+.profile-card h4 {
+  margin: 0;
+  color: #777;
+}
+
+.profile-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 15px 0;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+button.following {
+  background-color: #e74c3c;
+}
+
+button.following:hover {
+  background-color: #c0392b;
+}
